@@ -1,0 +1,14 @@
+name: Excavators
+main: com.vhbob.excavator.Excavators
+version: 1.0
+author: Vhbob
+description: Adds excavation tools for SpigotMC
+api-version: 1.14
+commands:
+   excavator:
+      aliases:
+      - exc
+      - excavate
+      usage: 'usage: /excavator <command>'
+      permission: excavator
+      permission-message: You not have have permission to use this command.

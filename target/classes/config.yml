@@ -1,0 +1,18 @@
+# Welcome to the config! Here you can edit the messages sent by the plugin
+# And add new tools to the command!
+messages:
+   receive: '&7You have been given an &aexcavation tool&7!'
+# For materials, use them from this list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Below you can add an infinite number of tools
+# length is depth for the pickaxe, height and width are height and width
+tools:
+   example-pick:
+      name: '&b&lExcavation Pickaxe'
+      material: DIAMOND_PICKAXE
+      lore:
+      - '&7Digs a 5x3x3 hole'
+      - '&7These can have multiple lines'
+      area:
+         l: 5
+         w: 3
+         h: 3
